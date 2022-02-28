@@ -1,0 +1,12 @@
+services:
+    web:
+        build:
+            context: ./.docker/web
+        ports:
+            - "8000:80"
+        expose:
+            - 9003
+        volumes:
+            - .:/var/www/html
+        environment:
+            - DB_HOST=mysql
