@@ -6,7 +6,7 @@ This is how I setup a Laravel project with Visual Studio Code
 
 See: .devcontainer.json
 
-```json
+```jsonc
 {
     // .vscode/launch.json
     // Use IntelliSense to learn about possible attributes.
